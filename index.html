@@ -30,10 +30,12 @@
         }
 
         .contact-info {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
             margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
         }
 
         .contact-info a {
@@ -57,37 +59,13 @@
         ul li {
             margin-bottom: 10px;
         }
-
-        .skills, .education, .projects, .certifications {
-            margin-top: 20px;
-        }
-
-        .skills ul, .certifications ul {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .skills ul li, .certifications ul li {
-            width: 48%;
-            margin-right: 4%;
-        }
-
-        .skills ul li:nth-child(2n), .certifications ul li:nth-child(2n) {
-            margin-right: 0;
-        }
-
-        @media (max-width: 600px) {
-            .skills ul li, .certifications ul li {
-                width: 100%;
-                margin-right: 0;
-            }
-        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <h1>Adithi Kini N</h1>
+
         <div class="contact-info">
             <p>Mangalore</p>
             <p>Email: <a href="mailto:kiniadithi@gmail.com">kiniadithi@gmail.com</a></p>
@@ -100,7 +78,7 @@
             <p>Motivated and detail-oriented with a strong foundation in computer science. Eager to learn new technologies and apply my skills to contribute effectively in the fast-paced tech industry.</p>
         </div>
 
-        <div class="section skills">
+        <div class="section">
             <h2>Technical Skills</h2>
             <ul>
                 <li><strong>Programming Languages:</strong> Python, MySQL, HTML, CSS, JavaScript, PHP, C</li>
